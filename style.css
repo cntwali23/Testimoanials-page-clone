@@ -12,10 +12,15 @@ body {
     border: 1px skyblue solid;
     border-radius: 30px;
 }
+.testimonials {
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
 
 .container {
     margin-bottom: 20px;
-    display: grid;
 }
 
 .cardheader {
