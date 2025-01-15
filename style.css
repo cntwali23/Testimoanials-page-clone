@@ -6,6 +6,7 @@
 body {
   margin: 130px 20px;
   background: #edf2f8;
+  line-height: 1.7;
 }
 .image {
     border: 1px skyblue solid;
@@ -14,8 +15,12 @@ body {
 
 .container {
     margin-bottom: 20px;
+    display: grid;
 }
 
+.cardheader {
+    display: flex;
+}
 
 .purple {
     background-image: url(images/bg-pattern-quotation.svg);
@@ -25,6 +30,7 @@ body {
     background-position: top 10px right 300px;
     border-radius: 20px;
     padding: 30px;
+    box-shadow: (17, 12, 46, 0.15 0px 48px 100px 0px);
 }
 
 .white {
@@ -36,21 +42,15 @@ body {
 }
 
 .darkgray {
-    background-image: url(images/bg-pattern-quotation.svg);
-    background: hsl(263, 55%, 52%);
-    background-repeat: no-repeat;
+    background: hsl(217, 19%, 35%);
     color: white;
-    background-position: top 10px right 300px;
     border-radius: 20px;
     padding: 30px;
 }
 
 .darkblue {
-    background-image: url(images/bg-pattern-quotation.svg);
-    background: hsl(263, 55%, 52%);
-    background-repeat: no-repeat;
+    background: hsl(219, 29%, 14%);
     color: white;
-    background-position: top 10px right 300px;
     border-radius: 20px;
     padding: 30px;
 }
